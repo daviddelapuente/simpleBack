@@ -6,6 +6,19 @@ npm install
 ```
 to install dependencies
 
+create the enviroment variable for the database password
+supose the password is 'pass123', the run in the console:
+```
+export dbpass="pass123"
+```
+you  can check if the enviroment variable was created runing
+
+```
+echo $dbpass
+```
+
+and you should see the password
+
 
 then run in the terminal
 ```
